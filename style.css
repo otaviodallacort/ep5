@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.cabeca{
+    text-align: center;
+    background-color: #8ecae6;
+    height: 100px;
+    position: relative;
+    border-radius: 20px;
+}
+.logo{
+    position: absolute;
+    left: 10px;
+    height: 80px;
+    top: 10px;
+    border-radius: 30%;
+}
+.dalla{
+    position: relative;
+    top: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
