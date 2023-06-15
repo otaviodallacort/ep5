@@ -5,7 +5,7 @@
 
 .cabeca{
     text-align: center;
-    background-color: #8ecae6;
+    background-color: transparent;
     height: 100px;
     position: relative;
     border-radius: 20px;
@@ -21,4 +21,58 @@
     position: relative;
     top: 30px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.child{
+    width: 20%;
+    height: 200px;
+    background-color: #8ecae6;
+    border: 1px solid black;
+} 
+.fundo{
+    background: linear-gradient(45deg,#bde0fe, rgb(137, 233, 250), #4ef9ff, #45bceb,#8af6fa, rgb(255, 255, 255));
+    animation: colors 10s ease infinite;
+    background-size: 300% 300% ;
+    height: 600px;
+}
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }       
+}
+    .filho div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .filho{
+        background-color: #fff;
+        width: 400;
+        box-shadow: 4px 4px 4px 4px #aaaa;
+        border-radius: 5px;
+    }
+.m{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.filho h1{
+    font-size: 20px;
+}
+.foto{
+    border-radius: 50px;
 }
