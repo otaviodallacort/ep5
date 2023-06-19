@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background: #bde0fe;
+    display: grid;
+    grid-template-areas: 
+    "cc cc cc"
+    "bb oo oo"
+    "pp pp pp";
+    grid-gap: 20px;
+    grid-template-columns: auto auto 30%;
+    margin: 0;
+}
+
+.cabeca{
+    text-align: center;
+    background-color: white;
+    height: 100px;
+    position: relative;
+    grid-area: cc;
+    
+}
+
+.braco{
+    margin: 60px;
+    width: 40%;
+    grid-area: bb;
+}
+
+.corpo{
+    grid-area: oo;
+    margin-top: 70px;
+    color: black;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.perna{
+    grid-area: pp;
+}
+
+.logo{
+    position: absolute;
+    left: 10px;
+    height: 80px;
+    top: 10px;
+    border-radius: 30%;
+}
+
+.dalla{
+    position: relative;
+    top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    
+}
+.foto{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 20px;
+}
+.botao{
+
+}
