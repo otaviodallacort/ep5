@@ -1,6 +1,6 @@
 .body{
 
-    background: linear-gradient(45deg,#bde0fe, rgb(137, 233, 250), #4ef9ff, #45bceb,#8af6fa, rgb(255, 255, 255));
+    background: linear-gradient(#bde0fe, #8db3d4);
     animation: colors 10s ease infinite;
     background-size: 300% 300% ;
     height: 600px;
@@ -33,7 +33,7 @@
 
 .perna{
     grid-area: pern;
-    background-color: whitesmoke;
+
 }
 
 .logo{
@@ -49,37 +49,31 @@
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
 }
+      
+.filho div{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+      display: block;
+ }
 
-
-@keyframes colors{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }       
-}
-    .filho div{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        display: block;
-    }
-
-    .filho{
-        background-color: #fff;
-        width: 400;
-        box-shadow: 4px 4px 4px 4px #aaaa;
-        border-radius: 5px;
-        margin: 100px;
-    }
+ .filho{
+    background-color: #fff;
+     width: 400;
+      box-shadow: 4px 4px 4px 4px #aaaa;
+      border-radius: 5px;
+      margin: 100px;
+ }
 
 .filho h1{
     font-size: 20px;
 }
 .foto{
     border-radius: 50px;
+}
+
+.filho a{
+    display: block;
+    background-color: rgb(196, 196, 196);
+
 }

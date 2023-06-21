@@ -62,12 +62,9 @@ body{
     font-size: 50px;
     
 }
-.foto{
+aside img{
     width: 500px;
     height: 500px;
     border-radius: 20px;
-    box-shadow: 20px;
-}
-.botao{
-
+    box-shadow: 2px 2px 2px;
 }
