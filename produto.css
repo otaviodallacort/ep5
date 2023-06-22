@@ -41,6 +41,7 @@ body{
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
+    font-size: 30px;
 }
 
 .perna{
@@ -63,8 +64,9 @@ body{
     
 }
 aside img{
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px;
+    margin-left: 150px;
 }

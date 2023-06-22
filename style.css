@@ -63,6 +63,11 @@
       box-shadow: 4px 4px 4px 4px #aaaa;
       border-radius: 5px;
       margin: 100px;
+      display: block;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      transition: 0.5s;
  }
 
 .filho h1{
@@ -76,4 +81,7 @@
     display: block;
     background-color: rgb(196, 196, 196);
 
+}
+.link{
+    border-radius: 20px;
 }

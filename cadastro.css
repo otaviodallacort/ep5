@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(45deg,#bde0fe, rgb(137, 233, 250), #4ef9ff, #45bceb,#8af6fa, rgb(255, 255, 255));
+    background: #bde0fe;
     animation: colors 10s ease infinite;
     background-size: 300% 300% ;
     height: 600px;
@@ -119,15 +119,14 @@ button{
 .registro p a:hover{
     text-decoration: underline;
 }
-@keyframes colors{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
+
+.botao{
+    display: block;
+    text-align: center;
+    background: rgb(168, 165, 165);
+   border-radius: 20px;
+   height: 20px;
 }
+
+ 
     
