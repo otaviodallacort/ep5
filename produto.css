@@ -30,7 +30,7 @@ body{
 
 .braco{
     margin: 60px;
-    width: 40%;
+   
     grid-area: bb;
 }
 
@@ -64,8 +64,8 @@ body{
     
 }
 aside img{
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: auto;
     border-radius: 20px;
     box-shadow: 2px 2px 2px;
     margin-left: 150px;

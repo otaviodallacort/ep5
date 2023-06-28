@@ -3,7 +3,7 @@
     background: linear-gradient(#bde0fe, #8db3d4);
     animation: colors 10s ease infinite;
     background-size: 300% 300% ;
-    height: 600px;
+    height: 700px;
 }
 
 *{
@@ -33,7 +33,12 @@
 
 .perna{
     grid-area: pern;
-
+    text-align: center;
+    background-color: white;
+    height: 100px;
+    position: relative;
+   
+    
 }
 
 .logo{
@@ -62,7 +67,7 @@
      width: 400;
       box-shadow: 4px 4px 4px 4px #aaaa;
       border-radius: 5px;
-      margin: 100px;
+      margin: 50px;
       display: block;
       padding: 10px 20px;
       border-radius: 20px;
@@ -85,3 +90,6 @@
 .link{
     border-radius: 20px;
 }
+
+
+
