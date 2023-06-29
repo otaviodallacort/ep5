@@ -35,10 +35,8 @@
     grid-area: pern;
     text-align: center;
     background-color: white;
-    height: 100px;
-    position: relative;
-   
-    
+    height: 200px;
+    position: relative; 
 }
 
 .logo{
@@ -89,6 +87,15 @@
 }
 .link{
     border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+.rede{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
 }
 
 

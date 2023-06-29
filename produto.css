@@ -46,6 +46,11 @@ body{
 
 .perna{
     grid-area: pp;
+    text-align: center;
+    background-color: white;
+    height: 200px;
+    position: relative; 
+    margin-top: 130px;
 }
 
 .logo{
@@ -69,4 +74,20 @@ aside img{
     border-radius: 20px;
     box-shadow: 2px 2px 2px;
     margin-left: 150px;
+}
+.rede{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+}
+.botao{
+    display: block;
+    background-color: rgb(185, 178, 178);
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    margin-left: 400px; 
+    border-radius: 20px;
 }
