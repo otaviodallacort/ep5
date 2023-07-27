@@ -87,7 +87,7 @@ input:focus ~ :valid{
     margin-right: 3p;
 }
 .forget label a{
-    color: #ffffff;
+    color: purple;
     text-decoration: none;
 }
 .forget a:hover{
@@ -113,7 +113,7 @@ button{
 }
 .registro p a{
     text-decoration: none;
-    color: #fafafa;
+    color: purple;
     font-weight: 600;
 }
 .registro p a:hover{
@@ -126,7 +126,10 @@ button{
     background: rgb(168, 165, 165);
    border-radius: 20px;
    height: 20px;
+   text-decoration: none;
+   color: white;
 }
+
 
  
     
