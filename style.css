@@ -36,6 +36,11 @@
     margin: 10px;
     width: 10px;
 }
+.cabeca nav a{
+    font-size:x-large;
+    text-decoration: none;
+    color: black;
+}
 
 .braco{
     display: flex;
