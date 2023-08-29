@@ -43,3 +43,31 @@ aside{
     background: red;
     min-width: 250px;
 }
+table{
+    width: 100%;
+}
+
+thead tr th{
+    text-align: left;
+    border-bottom: 3px solid #ccc;
+    border-collapse: collapse;
+    padding: 16px 0;
+    text-transform: uppercase;
+    color: #666;
+}
+.product{
+    display: flex;
+    align-items: center;
+}
+img{
+    border-radius: 6px;
+}
+.info{
+    margin-left: 20px;
+}
+.name{
+    font-size: 20px;
+}
+.category{
+    color: #666;
+}
