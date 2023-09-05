@@ -25,7 +25,7 @@ header {
 
 main{
     background: #bde0fe;
-    padding: 0 30px;
+    padding: 0 30px 30px;
   
 }
 main .page-title{
@@ -46,6 +46,7 @@ section{
 
 aside{
     min-width: 250px;
+    margin-left: 30px;
 }
 table{
     width: 100%;
@@ -132,16 +133,19 @@ button:hover{
 aside .box{
     margin-bottom: 15px;
     border: 1px solid #ccc;
+    background: #eee;
+    color: #222;
 }
 aside .box button{
     border: 0;
-    padding: 5px 0;
+    padding: 15px 0;
     color: white;
-    background: #bbb;
+    background: green;
     display: block;
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-size: 16px;
 }
 .fin{
     border: 0;
@@ -162,6 +166,24 @@ aside .box header{
 aside .info{
     padding: 20px;
 }
+
+.info div{
+    display: flex;
+    justify-content:space-between ;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.info div button{
+    color: green;
+    background: transparent;
+    border: 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
 aside footer{
-    padding: 20px;
+    padding: 15px 20px;
+    background: #ddd;
+    font-size: 18px;
 }
